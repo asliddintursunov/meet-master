@@ -1,0 +1,35 @@
+/* Testimonials changes go here */
+.testi_item{
+    display: flex; 
+    align-items: start; 
+    justify-content: space-around;
+}
+
+/* Counter Bar changes go here */
+.counter_item{
+    user-select: none;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+}
+.counter_item div{
+    padding: 15px;
+    margin-left: 2px;
+    margin-top: -2px;
+    color: #fff;
+    background-image: -moz-linear-gradient(90deg, rgb(87, 213, 248), rgba(50, 50, 233, 0.874));
+    background-image: -webkit-linear-gradient(90deg, rgb(87, 213, 248), rgba(50, 50, 233, 0.874));
+    border-radius: 9999px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.counter_item div:hover{
+    background-color: #fff;
+    color: rgb(87, 213, 248);
+    border: 1px solid rgb(87, 213, 248);
+    background-image: none;
+}
